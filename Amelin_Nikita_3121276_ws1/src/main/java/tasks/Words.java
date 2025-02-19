@@ -1,3 +1,4 @@
+//Nikita Amelin 3121276
 package tasks;
 
 public class Words {
