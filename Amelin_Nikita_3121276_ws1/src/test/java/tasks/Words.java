@@ -17,7 +17,7 @@ public class Words {
 	}
 	
 	int length() {
-		return 0;
+		return this.letters.length;
 		//returns size of an array
 	}
 	
