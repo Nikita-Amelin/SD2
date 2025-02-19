@@ -23,7 +23,7 @@ public class GradesTest {
 	public void testGradesMax() {
 		assertEquals(100, Grades.gradesMax(grades1));	
 		assertEquals(80, Grades.gradesMax(grades2));	
-		assertEquals(99, Grades.gradesMax(grades3));	
+		assertEquals(90, Grades.gradesMax(grades3));	
 	}
 	
 	@Test

@@ -3,8 +3,14 @@ package tasks;
 public class Grades {
 	
 	static int gradesMax(int[] grades) {
-		return 0;
+		int m = grades[0]; 
 		
+		for(int i=0; i<grades.length; i++) {
+			if(m<grades[i])
+				m=grades[i];
+		}
+		return m;
+		//get largest element
 	}
 	
 	static int gradesTotal (int[] grades) {
