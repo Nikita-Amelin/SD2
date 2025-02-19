@@ -27,7 +27,12 @@ public class Grades {
 	}
 	
 	static int countFails(int[] grades, int minGrade) {
-		return 0;
+		int n = 0;
+		for(int i : grades) {
+			if(i<minGrade)
+				n+=1;
+		}
+		return n;
 		// count how many grades < minGrade
 	}
 }
