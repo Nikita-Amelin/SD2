@@ -9,11 +9,11 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class WordsTest {
-	
+	//various sets of values
 	char[] letters1 = {'m','a','r','s'};
 	char[] letters2 = {'j','u','p','i','t','e','r'};
 	char[] letters3 = {'s','a','t','u','r','n'};
-
+	//creating objects for testing
 	Words word1 = new Words(letters1);
 	Words word2 = new Words(letters2);
 	Words word3 = new Words(letters3);

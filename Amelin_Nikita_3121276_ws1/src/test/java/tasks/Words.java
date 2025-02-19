@@ -22,7 +22,7 @@ public class Words {
 	}
 	
 	char[] getLetters() {
-		return null;
+		return this.letters;
 		//getter
 	}
 }
