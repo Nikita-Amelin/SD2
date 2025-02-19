@@ -9,26 +9,27 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class GradesTest {
-
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
+	int[] grades1 = {100, 90, 60, 50};
+	int[] grades2 = {80 , 40, 35, 70};
+	int[] grades3 = {99, 30, 20, 60};
+	
+	@Test
+	public void testGradesMax() {
+		
 	}
-
-	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-	}
-
-	@Before
-	public void setUp() throws Exception {
-	}
-
-	@After
-	public void tearDown() throws Exception {
+	
+	@Test
+	public void testGradesTotal() {
+		
 	}
 
 	@Test
-	public void test() {
+	public void testGradesAverage() {
 		fail("Not yet implemented");
 	}
-
+	
+	@Test
+	public void testCountFails() {
+		fail("Not yet implemented");
+	}
 }
