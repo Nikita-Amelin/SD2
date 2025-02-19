@@ -22,7 +22,7 @@ public class Grades {
 	}
 	
 	static double gradesAverage(int[] grades) {
-		return 0;
+		return gradesTotal(grades)/grades.length;
 		// get average of array
 	}
 	

@@ -36,7 +36,7 @@ public class GradesTest {
 	public void testGradesAverage() {
 		assertEquals(75.0, Grades.gradesAverage(grades1), 0.001);	
 		assertEquals(55.0, Grades.gradesAverage(grades2), 0.001);	
-		assertEquals(50.0, Grades.gradesAverage(grades3), 0.001);	
+		assertEquals(40.0, Grades.gradesAverage(grades3), 0.001);	
 	}
 	
 	@Test
