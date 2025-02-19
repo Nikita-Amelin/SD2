@@ -13,8 +13,11 @@ public class Grades {
 		//get largest element
 	}
 	
-	static int gradesTotal (int[] grades) {
-		return 0;
+	static int gradesTotal(int[] grades) {
+		int n = 0;
+		for(int i : grades)
+			n+=i;
+		return n;
 		// get sum of array
 	}
 	

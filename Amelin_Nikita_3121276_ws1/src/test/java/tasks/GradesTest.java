@@ -12,12 +12,11 @@ public class GradesTest {
 	//various sets of values 
 	int[] grades1 = {100, 90, 60, 50};
 	int[] grades2 = {80 , 40, 35, 70, 50};
-	int[] grades3 = {90, 30, 30};
+	int[] grades3 = {90, 20, 10};
 	
 	int mingrade = 40;	//minimal grade
 	
-	//Make sure to test a range of values, at least three different sets of values per test. 
-	//Check for negatives, positives and null values.
+	//At least three different sets of values per test. 
 	
 	@Test
 	public void testGradesMax() {
@@ -28,9 +27,9 @@ public class GradesTest {
 	
 	@Test
 	public void testGradesTotal() {
-		assertEquals(4, Grades.gradesTotal(grades1));	
-		assertEquals(5, Grades.gradesTotal(grades2));	
-		assertEquals(3, Grades.gradesTotal(grades3));
+		assertEquals(300, Grades.gradesTotal(grades1));	
+		assertEquals(275, Grades.gradesTotal(grades2));	
+		assertEquals(120, Grades.gradesTotal(grades3));
 	}
 
 	@Test
