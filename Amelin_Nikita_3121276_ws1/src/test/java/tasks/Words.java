@@ -8,7 +8,11 @@ public class Words {
 	}
 	
 	boolean contains(char symbol) {
-		return false;
+		for(int i=0; i<this.letters.length; i++) {
+			if(this.letters[i]==symbol)
+				return true;
+		}
+		return false;				
 		//checks if contains symbol
 	}
 	
